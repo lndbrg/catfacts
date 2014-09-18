@@ -9,3 +9,6 @@ def catfact():
             )
     facts = tree.xpath('//ul/li/text()')
     print (re.sub(r'\s+', ' ', random.choice(facts)))
+
+if __name__ == "__main__":
+    catfact()
